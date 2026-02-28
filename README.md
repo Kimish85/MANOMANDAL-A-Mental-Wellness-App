@@ -1,66 +1,36 @@
-# MANOMANDAL-A Mental Wellness App
-**MANOMANDAL** is an ancient-inspired mental wellness app that transforms emotions into personalized mandala and rangoli art. Users select their mood, and the app generates interactive designs powered by color psychology and AI insights. It promotes mindfulness, emotional balance, and self-reflection through creative expression and guided healing.
-✨ Problem Statement
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-In today’s fast-paced digital world, stress, anxiety, and emotional imbalance are increasing.
-Most mental health apps focus only on tracking or journaling — not creative emotional expression.
+## Getting Started
 
-MANOMANDAL provides a culturally rooted, interactive healing experience through art.
+First, run the development server:
 
-💡 Core Concept – Emotion to Design Therapy
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-Users select their current emotion.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-The app generates a personalized mandala or rangoli design.
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-Designs vary based on color psychology and pattern complexity.
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-Users interactively color and complete the design.
+## Learn More
 
-Patterns subtly transform toward balance during engagement.
+To learn more about Next.js, take a look at the following resources:
 
-Guided breathing and affirmations enhance mindfulness.
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-Completed artworks are stored in a Mood Mandala Journal.
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-Emotional journey is visualized over time.
+## Deploy on Vercel
 
-🧠 Key Features
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-🎨 AI-powered personalized mandala generation
-
-🌈 Emotion-based color psychology mapping
-
-🧘 Guided breathing & affirmation integration
-
-📊 Emotional trend tracking dashboard
-
-📖 Mood Mandala Journal
-
-🌍 Optional anonymous community gallery
-
-🛠️ Tech Stack (Example)
-
-Frontend: React / Flutter
-
-Backend: Node.js / Firebase
-
-AI Logic: Python (Emotion Mapping Model)
-
-Database: Firestore / MongoDB
-
-Design Engine: Generative pattern algorithm
-
-🚀 Future Enhancements
-
-Biometric-based emotion detection (heart rate integration)
-
-Personalized healing recommendations
-
-Therapist mode for professional guidance
-
-Multilingual support
-
-🌿 Vision
-
-To reconnect mental wellness with ancient art traditions and provide a safe, creative space for emotional healing.
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
